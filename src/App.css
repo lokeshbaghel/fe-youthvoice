@@ -1,0 +1,27 @@
+
+.page-content-wrapper {
+	padding: 100px 61px 0 320px;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+	.page-content-wrapper {
+		padding: 100px 10px 0;
+	}
+
+
+
+
+
+
