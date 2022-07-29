@@ -1,0 +1,388 @@
+.modal .modal-header {
+	border: none;
+}
+
+
+.modal .modal-dialog {
+	max-width: 930px;
+}
+
+.modal .modal-footer {
+	text-align: center;
+	border: none;
+	padding: 10px 0 70px;
+}
+
+.modal-wrapnew {
+  max-width: 761px !important;
+  margin: 0 auto !important;
+}
+.custom-message {
+  display: block;
+  text-align: center;
+}
+.modal .cancel-btn {
+	cursor: pointer;
+	color: #508FF4;
+	text-decoration: underline;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.modal  .modal-content {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+.modal form .form-group textarea,
+.modal form .form-group input {
+	border-radius: 10px;
+	background: #F5F6FA;
+	color: #000000;
+	font-size: 18px;
+	border: none;
+	padding: 5px 10px;
+	width: 100% !important;
+	box-shadow: none;
+	font-family: ProximaSoft;
+    font-weight: 400;
+	line-height: 1;
+    height: 50px;
+	max-width: 100%;
+    box-sizing: border-box;
+	outline: none;
+}
+
+.modal form .form-group textarea::placeholder,
+.modal  form .form-group input::placeholder {
+	color: #CBC9D9;
+}
+
+
+
+.modal form .btn {
+	background: #508FF4 !important;
+	border-radius: 10px !important;
+	padding: 15px 100px !important;
+	margin: 70px 0 0 !important;
+	font-family: ProximaSoft;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+	box-sizing: border-box;
+    display: inline-block;
+}
+
+.user-management-modal form .form-group {
+	width: 47%;
+	margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .user-management-modal form .form-group {
+     width: 100%;
+    }
+}
+
+
+
+.user-management-modal form .disable-user {
+	position: relative;
+}
+
+.user-management-modal form .disable-user .switch {
+	position: absolute;
+    right: 0;
+	top: 10px;
+}
+
+
+.user-management-modal form {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+
+.user-management-modal form .disable-user input {
+	border-bottom: 1px solid #DADADA;
+	background: none;
+	border-radius: 0;
+}
+
+
+.user-management-modal .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+.user-management-modal .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.user-management-modal .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #CBCBCB;
+  background: #F5F6FA;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.user-management-modal .slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 4px;
+  bottom: 4px;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.user-management-modal input:checked + .slider {
+  background-color: #508FF4;
+}
+
+.user-management-modal input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.user-management-modal input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.user-management-modal .slider.round {
+  border-radius: 15px;
+}
+
+.user-management-modal .slider.round:before {
+  border-radius: 50%;
+}
+
+.user-management-modal .switch {
+	width: 60px !important;
+}
+
+.user-management-modal .user-management-modal h1 {
+	text-align: center;
+}
+
+
+
+.profile-popup form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-popup form .form-group {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	margin: 0 0 10px;
+  max-width: 561px;
+}
+
+.profile-popup .full-container {
+	width: 100%;
+	display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.profile-popup.modal-body  form .btn {
+	margin: 10px 0 0 !important;
+}
+
+.profile-popup.modal-body form label{
+	display: block !important;
+  margin: 10px 0 !important;
+  font-size: 19px;
+}
+
+
+
+.profile-popup.modal-body form input{
+	max-width: 100% !important;
+}
+
+.profile-popup h1 {
+    margin: 0 0 30px;
+}
+
+.popup-btn {
+	color: #007bff;
+  text-decoration: underline;
+	cursor: pointer
+}
+
+.profile-popup.modal-body .alert  {
+   display: block;
+   margin: 0 0 10px;
+}
+
+
+/*User Management CSS*/
+/* addYoungPerson */
+
+#addYoungPerson form {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 0;
+}
+
+#addYoungPerson form .btn {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 113px;
+    height: 49px;
+}
+
+#addYoungPerson form .form-group {
+    margin: 0 19px 0 0;
+    width: 100%;
+}
+
+
+#addYoungPerson .table thead th {
+    background: #f1f4f7;
+    border: none !important;
+    font-size: 16px;
+    color: #B3B8BD;
+}
+
+#addYoungPerson .table td {
+    font-size: 18px;
+    line-height: 1;
+    color: #52575D;
+    border-top: none;
+    border-bottom: 1px solid #E4E9EE;
+    padding: 25px 5px;
+}
+
+#addYoungPerson .young-people-wrapper {
+    margin: 37px 0 0;
+}
+
+.pagination ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.pagination ul li:last-child a,
+.pagination ul li:first-child a {
+	opacity: 0.5;
+}
+
+.pagination ul li:last-child a:hover,
+.pagination ul li:first-child a:hover {
+	background: none;
+	opacity: 1
+}
+
+
+
+.pagination ul li a {
+	color: #52575D;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 15px;
+	width: 40px;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+}
+
+.pagination ul li a:hover {
+	background: #508FF4;
+	color: #FFFFFF;
+}
+
+.modal {
+	z-index: 99999 !important;
+	
+}
+.send-link {
+  padding-right: 0px !important;
+}
+.send-link .modal-header {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  text-align: center;
+  border: none;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.send-link .modal-dialog {
+  max-width: 670px !important;
+}
+
+.send-link .modal-header h5 {
+  font-size: 25px !important;
+}
+
+
+.send-link input {
+  border-radius: 10px;
+  background: #F5F6FA;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  padding: 5px 10px;
+  width: 100% !important;
+  box-shadow: none;
+  font-family: ProximaSoft;
+  font-weight: 400;
+  line-height: 1;
+  height: 50px;
+  max-width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+.send-link .btn {
+  background: #508FF4 !important;
+  border-radius: 10px !important;
+  padding: 12px 20px !important;
+  margin: 10px 0 !important;
+  font-family: ProximaSoft;
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none;
+  border: none;
+}
